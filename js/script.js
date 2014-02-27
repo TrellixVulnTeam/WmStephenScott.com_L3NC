@@ -13,6 +13,7 @@ $(document).ready(function(){
     mySkills[1] = 'UrbanDesign';
     mySkills[2] = 'Architecture';
     mySkills[3] = '3DModeling';
+    mySkills[4] = 'AboutMe';
 
 	function FadeMe(skill)
 		{	
@@ -30,10 +31,26 @@ $(document).ready(function(){
 		    	$('h2#'+skill).fadeTo(400, 1);
 		    	$('div#contentColumn').empty();
 				$('div#imageColumn').empty();
-		    	var text = "<p id='popupText' class='destroyMe'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+		    	
+		    	 
+		    		if (skill == 'GIS') {text = "<p id='popupText' class='destroyMe'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>";
+		    							image = "<img src='img/gis/changeTime3Wide.png' width='500px'>";
+		    							}
+		    		else if (skill == 'UrbanDesign') {text = "<p>Urban Design</p>";
+		    										  image = "<img id='popupImage' class='destroyMe' src='img/ud/null.png' width='500px'>"
+		    										}
+		    		else if (skill == 'Architecture') {text = "<p>Stuff about architecture</p>";
+		    											image = "<img id='popupImage' class='destroyMe' src='img/closeup.png' alt='nikken' width='500px'>"
+		    										}
+		    		else if (skill == '3DModeling') {text = "<p>3d printing is fun!!!</p>"}
+
+		    		else if (skill == 'AboutMe') {text = "<p>Some stuff about me</p>"};
+
+		    							
+		    	
 		    	$(text).hide().appendTo($('#contentColumn')).fadeIn(1000);
 
-		    	var image = "<img id='popupImage' class='destroyMe' src='img/closeup.png' alt='nikken' width='500px'>"
+		    	
 		    	$(image).hide().appendTo($('#imageColumn')).fadeIn(1000);
 		    	});
 
@@ -45,6 +62,7 @@ $(document).ready(function(){
 	FadeMe(mySkills[1])
 	FadeMe(mySkills[2])
 	FadeMe(mySkills[3])
+	FadeMe(mySkills[4])
 
 
 
