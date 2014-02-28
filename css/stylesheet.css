@@ -1,0 +1,49 @@
+
+body {
+	font-family: 'Didact Gothic', Verdana, sans-serif;
+	background-color:black;
+	}
+			
+div#WmStephenScott {
+	font-family: 'Didact Gothic', Helvetica, Verdana, sans-serif;
+	color: white;
+	background-color: #C94B5B;
+	padding-top: 40px;
+	padding-bottom:40px;script
+	padding-left:40px;
+	font-size:40px;
+	}
+h1#WmStephenScott {
+	padding-left:40px;
+	}
+p {color:white;}
+
+aside {
+	float:left;
+	background-color:'F0E4C9';
+	color: white;
+	padding-left:40px;
+	opacity:1;
+	width:20%;
+	}
+
+div#contentColumn {
+	float:left;
+	width:25%;
+	color:white;
+	background-color: black;
+	margin:10px;
+	}
+
+div#imageColumn {
+	float:right;
+	width:45%;
+	color:white;
+	background-color:black;
+	margin:10px;
+}
+
+
+head {
+	}
+}
