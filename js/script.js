@@ -14,6 +14,7 @@ $(document).ready(function(){
     mySkills[2] = 'Architecture';
     mySkills[3] = '3DModeling';
     mySkills[4] = 'AboutMe';
+    mySkills[5] = 'AlgorithmicArt'
 
 	function FadeMe(skill)
 		{	
@@ -37,14 +38,19 @@ $(document).ready(function(){
 		    							image = "<img src='img/gis/changeTime3Wide.png' width='500px'>";
 		    							}
 		    		else if (skill == 'UrbanDesign') {text = "<p>Urban Design</p>";
-		    										  image = "<img id='popupImage' class='destroyMe' src='img/ud/null.png' width='500px'>"
+		    										  image = "<img id='popupImage' class='destroyMe' src='img/ud/rendering big.jpg' width='500px'>";
 		    										}
 		    		else if (skill == 'Architecture') {text = "<p>Stuff about architecture</p>";
-		    											image = "<img id='popupImage' class='destroyMe' src='img/closeup.png' alt='nikken' width='500px'>"
+		    											image = "<img id='popupImage' class='destroyMe' src='img/architecture/Axons-01.png' alt='nikken' width='500px'>"
 		    										}
-		    		else if (skill == '3DModeling') {text = "<p>3d printing is fun!!!</p>"}
+		    		else if (skill == '3DModeling') {text = "<p>3d printing is fun!!!</p>";
+		    											image = "<img src='img/3dModeling/lookingup.png' width='500px'>";}
 
-		    		else if (skill == 'AboutMe') {text = "<p>Some stuff about me</p>"};
+		    		else if (skill == 'AboutMe') {text = "<p>Some stuff about me</p>";
+		    										image ="<img id='popupImage' class='destroyMe' src='img/AboutMe/portrait.jpg' width='500px'>";}
+
+		    		else if (skill == 'AlgorithmicArt') {text = "<p>Algorithmic Art</p>";
+		    											image = "<img src='img/algorithmicArt/RenderE_Islands.png' width='500px'>";};
 
 		    							
 		    	
@@ -58,11 +64,18 @@ $(document).ready(function(){
 		    	$('h2#'+skill).fadeTo(400,0.25)
 			});
 		};
-	FadeMe(mySkills[0])
-	FadeMe(mySkills[1])
-	FadeMe(mySkills[2])
-	FadeMe(mySkills[3])
-	FadeMe(mySkills[4])
+//	FadeMe(mySkills[0])
+//	FadeMe(mySkills[1])
+//	FadeMe(mySkills[2])
+//	FadeMe(mySkills[3])
+//	FadeMe(mySkills[4])
+//	FadeMe(mySkills[5])
+
+	for (var i=0;i<mySkills.length;i++)
+	{ 
+		FadeMe(mySkills[i]);
+	}
+
 
 
 
