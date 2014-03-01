@@ -47,7 +47,7 @@ $(document).ready(function(){
 		    											image = "<img src='img/3dModeling/lookingup.png' width='500px'>";}
 
 		    		else if (skill == 'AboutMe') {text = "<p>Some stuff about me</p>";
-		    										image ="<img id='popupImage' class='destroyMe' src='img/AboutMe/portrait copy.jpg' width='500px'>";}
+		    										image ="<img id='popupImage' class='destroyMe' src='img/AboutMe/portraitCopy.jpg' width='500px'>";}
 
 		    		else if (skill == 'AlgorithmicArt') {text = "<p>Algorithmic Art</p>";
 		    											image = "<img src='img/algorithmicArt/RenderE_Islands.png' width='500px'>";};
