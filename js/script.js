@@ -3,7 +3,7 @@ $(document).ready(function(){
     $WSSText = $('h1#WmStephenScott')
     $AsideText = $('div#aside')
     $WSSBackground.hide();
-    $AsideText.fadeOut()
+    $AsideText.hide()
     $WSSText.fadeIn(3000);
     $WSSBackground.fadeIn(3000);
     $AsideText.delay(2000).fadeIn(3000);
