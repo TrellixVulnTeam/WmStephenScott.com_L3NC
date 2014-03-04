@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 
 <html>
+	<title>Steve Scott</title>
 	<head>
-		<title>Steve Scott</title>
+		
 		<link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css' />
 		<link href='css/stylesheet.css' rel='stylesheet' type='text/css'/>
 		<script type="text/javascript" src='js/jquery-2.1.0.js'></script>
@@ -60,7 +61,7 @@ if (!isset($_POST["submit"]))
   {
 	?>
   <form method="post" action="index.php"?><br/>
-  From: <input type="text" name="from"><br>
+  From: <input type="text" name="email"><br>
   Subject: <input type="text" name="subject"><br>
   Message: <textarea rows="10" cols="40" name="message"></textarea><br>
   <input type="submit" name="submit" value="Contact Steve">
