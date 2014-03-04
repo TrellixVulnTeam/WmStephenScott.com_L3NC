@@ -9,13 +9,23 @@ div#WmStephenScott {
 	color: white;
 	background-color: #C94B5B;
 	padding-top: 40px;
-	padding-bottom:40px;script
+	padding-bottom:40px;
 	padding-left:40px;
 	font-size:40px;
 	}
+div#contactForm {
+	float:right;
+	padding-right: 100px;
+}
 h1#WmStephenScott {
 	padding-left:40px;
 	}
+h3#contactMe {
+	float:right;
+	color:black;
+	padding-right:80px;
+	padding-top:120px;
+}
 p {
 	color:white;
 	font-size:18px;
@@ -46,6 +56,11 @@ div#imageColumn {
 	margin:10px;
 }
 
+div#feedbackFormDiv {
+	background-color:#C94B5B;
+	float:right;
+	padding-right:40px;
+}
 
 head {
 	}

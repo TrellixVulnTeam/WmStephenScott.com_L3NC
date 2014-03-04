@@ -1,9 +1,10 @@
 $(document).ready(function(){
-    $WSSBackground = $('div#WmStephenScott')
-    $WSSText = $('h1#WmStephenScott')
-    $AsideText = $('div#aside')
+    $WSSBackground = $('div#WmStephenScott');
+    $WSSText = $('h1#WmStephenScott');
+    $AsideText = $('div#aside');
+    $('div#feedbackFormDiv').hide();
     $WSSBackground.hide();
-    $AsideText.hide()
+    $AsideText.hide();
     $WSSText.fadeIn(3000);
     $WSSBackground.fadeIn(3000);
     $AsideText.delay(2000).fadeIn(3000);
@@ -14,7 +15,7 @@ $(document).ready(function(){
     mySkills[2] = 'Architecture';
     mySkills[3] = '3DModeling';
     mySkills[4] = 'AboutMe';
-    mySkills[5] = 'AlgorithmicArt'
+    mySkills[5] = 'AlgorithmicArt';
 
 	function FadeMe(skill)
 		{	
@@ -32,6 +33,8 @@ $(document).ready(function(){
 		    	$('h2#'+skill).fadeTo(400, 1);
 		    	$('div#contentColumn').empty();
 				$('div#imageColumn').empty();
+				$('footer').hide();
+				$('div#feedbackFormDiv').hide();
 		    	
 		    	 
 		    		if (skill == 'GIS') {text = "<p id='popupText' class='destroyMe'> I love geospatial data.  Using raster GIS methods I can conduct statistical analyses, such as modeling future real estate values, or determining how much more individuals are willing to pay to be near a transit stop. I am skilled in ESRI's ArcInfo, but increasingly I am moving toward QGIS, a powerful open-source alternative. I am active in the Code For America brigades, where I share my GIS knowledge with others.</p>";
@@ -46,7 +49,7 @@ $(document).ready(function(){
 		    		else if (skill == '3DModeling') {text = "<p>I have perfected a workflow to turn complex geometry into watertight, printable objects by 'skinning' objects in ZBrush.  I learned 3d printing techniques in architecture school.  Now I use the computer to design jewelry and other small art objects for my friends and loved-ones.</p>";
 		    											image = "<img src='img/3dModeling/lookingup.png' width='500px'>";}
 
-		    		else if (skill == 'AboutMe') {text = "<p>Hi, I'm Wm. Stephen Scott.  Call me Steve.  My background is can be described as 'urbanist'.  I have a B.A. in Social Science from the New College of Florida, and a Masters of City Planning degree from the University of Pennsylvania with a certificate in Urban Design.  I also spent a year and a half at Pratt Institute studying architecture before leaving school to pursue a career.</p> <p>Due to the economic downturn and poor job prospects in both the private and public urban planning sectors, I am gravitating towards coding and data analysis.  In 2013 I completed a course in Data Science at General Assembly and I am looking for work as a junior developer or analyst. </p> <p>I have much to learn, but already I have experience with Python, SQL, HTML, and Javascript.  This web site, for example, is completely designed by myself.  My goal is to become a geospatial developer, and implement my GIS knowledge through web applications.  </p>";
+		    		else if (skill == 'AboutMe') {text = "<p>Hi, I'm Wm. Stephen Scott.  Call me Steve.  My background is can be described as 'urbanist'.  I have a B.A. in Social Science from the New College of Florida, and a Masters of City Planning degree from the University of Pennsylvania with a certificate in Urban Design.  I also spent a year and a half at Pratt Institute studying architecture before leaving school to pursue a career.</p><p>I find myself moving away from designing the built environment and gravitating towards coding and data analysis.  In 2013 I completed a course in Data Science at General Assembly and I am looking for work as a junior developer or analyst. </p> <p>I have much to learn, but already I have experience with Python, SQL, HTML, and Javascript.  This web site, for example, is completely designed by myself.  My goal is to become a geospatial developer, and implement my GIS knowledge through web applications.  </p>";
 		    										image ="<img id='popupImage' class='destroyMe' src='img/aboutMe/portrait3.jpg' width='500px'>";}
 
 		    		else if (skill == 'AlgorithmicArt') {text = "<p>In the spring and summer of 2011 I was hard at work honing my algorithmic architecture techniques.  Using Lindenmeyer systems and celular automata coded in NetLOGO I created intricate and complex algorithmic art.  Complexity of design, on the small and large scale, is the hallmark of my design philosophy. Algorithms are capable of generating this complexity at multiple scales that would be difficult to achieve if designed manually.  These art experiments honed my design and coding technique.  </p>";
@@ -74,8 +77,14 @@ $(document).ready(function(){
 	for (var i=0;i<mySkills.length;i++)
 	{ 
 		FadeMe(mySkills[i]);
-	}
-
+	};
+	
+	$('h3#contactMe').mouseenter(function() {
+		$('div#contentColumn').empty();
+		$('div#imageColumn').empty();
+		$('div#feedbackFormDiv').fadeTo(1, 1);
+		$('footer').fadeTo(1,1);
+	});
 
 
 
