@@ -53,13 +53,13 @@ function spamcheck($field)
   }
 ?>
 <div id='feedbackFormDiv'>
-<h2>Not Functional (yet)</h2>
+<h2>Not Functional (yet).  Email me at stevescott517 !at! gmail.com</h2>
 <?php
 // display form if user has not clicked submit
 if (!isset($_POST["submit"]))
   {
 	?>
-  <form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>"><br/>
+  <form method="post" action="index.php"?><br/>
   From: <input type="text" name="from"><br>
   Subject: <input type="text" name="subject"><br>
   Message: <textarea rows="10" cols="40" name="message"></textarea><br>
