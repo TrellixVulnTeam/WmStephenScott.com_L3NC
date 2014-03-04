@@ -2,6 +2,7 @@
 
 <html>
 	<head>
+		<title>Steve Scott</title>
 		<link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css' />
 		<link href='css/stylesheet.css' rel='stylesheet' type='text/css'/>
 		<script type="text/javascript" src='js/jquery-2.1.0.js'></script>
@@ -87,7 +88,7 @@ else
       // message lines should not exceed 70 characters (PHP rule), so wrap it
       $message = wordwrap($message, 70);
       // send mail
-      mail("stevescott517@gmail.com",$subject,$message,"From: $from\r\n");
+      mail("stevescott517@gmail.com",$subject,$message,$from);
       echo "Thank you for sending us feedback";
 
       }
