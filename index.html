@@ -57,14 +57,15 @@ function spamcheck($field)
 // display form if user has not clicked submit
 if (!isset($_POST["submit"]))
   {
-
-  <form id=contactForm method="post" action="<?php echo $_SERVER['PHP_SELF']?>";
+	?>
+  <form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>"><br>
   From: <input type="text" name="from"><br>
   Subject: <input type="text" name="subject"><br>
   Message: <textarea rows="10" cols="40" name="message"></textarea><br>
   <input type="submit" name="submit" value="Contact Steve">
   </form>
    </div>
+   <?php
   }
 else
   // the user has submitted the form
