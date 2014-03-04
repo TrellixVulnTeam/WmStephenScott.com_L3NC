@@ -58,7 +58,7 @@ function spamcheck($field)
 if (!isset($_POST["submit"]))
   {
 	?>
-  <form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>"><br>
+  <form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>"><br/>
   From: <input type="text" name="from"><br>
   Subject: <input type="text" name="subject"><br>
   Message: <textarea rows="10" cols="40" name="message"></textarea><br>
@@ -87,7 +87,7 @@ else
       // message lines should not exceed 70 characters (PHP rule), so wrap it
       $message = wordwrap($message, 70);
       // send mail
-      mail("stevescott517@gmail.com",$subject,$message,"From: $from\n");
+      mail("stevescott517@gmail.com",$subject,$message,"From: $from\r\n");
       echo "Thank you for sending us feedback";
 
       }
