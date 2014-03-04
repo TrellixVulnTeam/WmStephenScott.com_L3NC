@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 
 <html>
-	<title>Steve Scott</title>
+
 	<head>
-		
+		  <title>Steve Scott</title>
 		<link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css' />
 		<link href='css/stylesheet.css' rel='stylesheet' type='text/css'/>
 		<script type="text/javascript" src='js/jquery-2.1.0.js'></script>
