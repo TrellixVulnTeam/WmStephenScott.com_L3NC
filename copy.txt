@@ -1,0 +1,33 @@
+
+				<h2 id='AboutMe'>About Myself</h2>
+
+				Hi, I'm Wm. Stephen Scott.  Call me Steve.  My background is can be described as "urbanist".  I have a B.A. in Social Science from the New College of Florida, and a Masters of City Planning degree from the University of Pennsylvania with a certificate in Urban Design.  I also spent a year and a half at Pratt Institute studying architecture before leaving school to pursue a career.  
+
+				Due to the economic downturn and poor job prospects in both the private and public sectors, I am gravitating towards coding and data analysis.  In 2013 I completed a course in Data Science at General Assembly and I am looking for work as a junior developer or analyst.  
+				I have much to learn, but already I have experience with Python, SQL, HTML, and Javascript.  This web site, for example, is completely designed by myself.  My goal is to become a geospatial developer, and implement my GIS knowledge through web applications.  
+
+
+
+				<br/>
+				<h2 id='AlgorithmicArt'>Algorithmic Artwork</h2>
+
+				In the spring and summer of 2011 I was hard at work honing my algorithmic architecture techniques.  Using Lindenmeyer systems and celular automata coded in NetLOGO I created intricate and complex algorithmic art.  Complexity of design, on the small and large scale, is the hallmark of my design philosophy. Algorithms are capable of generating this complexity at multiple scales that would be difficult to achieve if designed manually.  These art experiments honed my design and coding technique.  
+
+				<br/>
+				<h2 id='GIS'>GIS</h2>
+
+				I love geospatial data.  Using raster GIS methods I can conduct statistical analyses, such as modeling future real estate values, or determining how much more individuals are willing to pay to be near a transit stop. I am skilled in ESRI's ArcInfo, but increasingly I am moving toward QGIS, a powerful open-source alternative. I am active in the Code For America brigades, where I share my GIS knowledge with others.
+
+
+				<br/>
+				<h2 id='UrbanDesign'>Urban Design</h2>
+
+				Diversity and complexity at all scales serving human needs is my driving aesthetic vision.  I call the principle 'intimate modernity', intimate, because it exists on all scales, and modern, because of its utilitarian sense of urgency.  My design experience is thoroughly informed by the work of Ed Bacon and I.M. Pei and their designs for Philadelphia, as well as early Soviet theories of creating 'social condensors' where people can interact.  Good design brings people together, acting as a lattice upon which social interaction unfolds.  This requires a diversity of spaces, from the private nook, to spaces for small groups, to large civic spaces for congregations of citizens.  I belive good urban design is not just 'walkable', but the entire environment is scaled to the human body.  Detail and ornament on the micro-scale is important and is sorely lacking in modernist design generally.  To solve this problem of ornementatal richness, algorithmic design, digital sculpture, and digital fabrication will in the future fill the demand for rich, complex detailing. 
+
+				<br/>
+				<h2 id='Architecture'>Architecture</h2>
+
+
+				
+				<br/>
+				<h2 id='3DModeling'>3D Sculpture</h2>
