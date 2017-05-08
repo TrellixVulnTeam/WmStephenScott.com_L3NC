@@ -4,17 +4,19 @@
 
 	<head>
 		  <title>Steve Scott</title>
-		<link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css' />
+		<meta name="viewport" content="width=device-width">
+		<link href="https://fonts.googleapis.com/css?family=Heebo:300,400" rel="stylesheet">
 		<link href="{{url_for('static', filename='css/stylesheet.css')}}" rel='stylesheet' type='text/css'/>
 		<script type="text/javascript" src="{{url_for('static', filename='js/jquery-2.1.0.js')}}"></script>
 		<script type='text/javascript' src="{{url_for('static', filename='js/script.js')}}"></script>
-		<div id='WmStephenScott'>
+	</head>
+	<body>
+	<div id='WmStephenScott'>
 			<h3 id='contactMe'>Contact</h3>
 			<h1 id='WmStephenScott'>Wm. Stephen Scott</h1>
 
-		</div>
-	</head>
-	<body>
+	</div>
+
 		<aside>
 			<div id='aside'>
 				<br/>
@@ -32,70 +34,17 @@
 			
 		</div>
 		<div id='imageColumn'>
-		</div>	
+		</div>
+<!--
+<div id='feedbackFormDiv'>
+<h2></h2>
+</div>
+-->
 
+	</footer>
 	</body>
 	<footer>
-	<?php
-function spamcheck($field)
-  {
-  // Sanitize e-mail address
-  $field=filter_var($field, FILTER_SANITIZE_EMAIL);
-  // Validate e-mail address
-  if(filter_var($field, FILTER_VALIDATE_EMAIL))
-    {
-    return TRUE;
-    }
-  else
-    {
-    return FALSE;
-    }
-  }
-?>
-<div id='feedbackFormDiv'>
-<h2>Not Functional (yet).  Email me at stevescott517 !at! gmail.com</h2>
-<?php
-// display form if user has not clicked submit
-if (!isset($_POST["submit"]))
-  {
-	?>
-  <form method="post" action="index.php"?><br/>
-  From: <input type="text" name="email"><br>
-  Subject: <input type="text" name="subject"><br>
-  Message: <textarea rows="10" cols="40" name="message"></textarea><br>
-  <input type="submit" name="submit" value="Contact Steve">
-  </form>
-   </div>
-   <?php
-  }
-else
-  // the user has submitted the form
-  {
-  // Check if the "from" input field is filled out
-  if (isset($_POST["from"]))
-    {
-    // Check if "from" email address is valid
-    $mailcheck = spamcheck($_POST["from"]);
-    if ($mailcheck==FALSE)
-      {
-      echo "Invalid input";
-      }
-    else
-      {
-      $from = $_POST["from"]; // sender
-      $subject = $_POST["subject"];
-      $message = $_POST["message"];
-      // message lines should not exceed 70 characters (PHP rule), so wrap it
-      $message = wordwrap($message, 70);
-      // send mail
-      mail("stevescott517@gmail.com",$subject,$message,"From: $from\n");
-      echo "Thank you for sending us feedback";
 
-      }
-    }
-  }
-?>
-	</footer>
 </html>
 
 

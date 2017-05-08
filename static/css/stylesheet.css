@@ -1,31 +1,36 @@
 
 body {
-	font-family: 'Didact Gothic', Verdana, sans-serif;
+	font-family: 'Heebo', sans-serif;
 	background-color:black;
 	}
 			
 div#WmStephenScott {
-	font-family: 'Didact Gothic', Helvetica, Verdana, sans-serif;
+	font-family: 'Heebo', sans-serif;
 	color: white;
 	background-color: #C94B5B;
-	padding-top: 40px;
-	padding-bottom:40px;
-	padding-left:40px;
-	font-size:40px;
+	padding-top: 0px;
+	padding-bottom:0px;
+
+
 	}
 div#contactForm {
 	float:right;
 	padding-right: 100px;
 }
-h1#WmStephenScott {
-	padding-left:40px;
-	}
+
 h3#contactMe {
-	float:right;
+
 	color:black;
 	padding-right:80px;
-	padding-top:120px;
+	font-size: 20px;
+    position: absolute;
+    right: 10px;
 }
+
+h1#WmStephenScott{
+    vertical-align:center;
+    }
+
 p {
 	color:white;
 	font-size:18px;
@@ -35,26 +40,88 @@ aside {
 	float:left;
 	background-color:'F0E4C9';
 	color: white;
-	padding-left:40px;
 	opacity:1;
 	width:20%;
 	}
 
+div#imageColumn {
+        color:white;
+        background-color:black;
+        margin:10px;
+    }
 div#contentColumn {
-	float:left;
-	width:25%;
-	color:white;
-	background-color: black;
-	margin:10px;
+        float:left;
+        color:white;
+        background-color: black;
+        margin:10px;
 	}
 
-div#imageColumn {
-	float:right;
-	width:45%;
-	color:white;
-	background-color:black;
-	margin:10px;
+@media screen and (max-width:810px){
+    div#contentColumn {
+	    width:50%;
+	}
+
+    div#imageColumn {
+	    width:100%;
+    }
+
+    h1#WmStephenScott {
+        vertical-align: center;
+        position: absolute;
+        top: 30px;
+        font-size:40px;
+
+    }
+
+    div#WmStephenScott{
+    padding-left:5px;
+    height: 150px;
+    }
+
+    h2{
+    font-size: 15px;
+    }
+
+    h3#contactMe {
+        top: 100px;
+
+    }
 }
+
+@media screen and (min-width:811px){
+    div#imageColumn {
+        float:right;
+        width:45%;
+    }
+
+    div#contentColumn {
+        width:25%;
+	}
+
+	h1#WmStephenScott {
+	    vertical-align: center;
+	    position: absolute;
+	    font-size:60px;
+	    top: 40px;
+	}
+
+	div#WmStephenScott{
+		padding-left:40px;
+		height: 220px;
+	}
+
+	aside{
+	padding:20px;
+	}
+
+	h3#contactMe{
+        top:150px;
+
+	}
+}
+
+
+
 
 div#feedbackFormDiv {
 	background-color:#C94B5B;
@@ -62,6 +129,3 @@ div#feedbackFormDiv {
 	padding-right:40px;
 }
 
-head {
-	}
-}
