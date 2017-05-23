@@ -1,0 +1,47 @@
+
+<html>
+  <head>
+    <title>My Now Amazing Webpage</title>
+     <link rel="stylesheet" type="text/css" href="/static/slick/slick.css">
+     <link rel="stylesheet" type="text/css" href="/static/slick/slick-theme.css">
+    <!--
+    <object type="image/svg+xml" data="https://cdn.jsdelivr.net/jquery.slick/1.6.0/fonts/slick.svg"></object>
+    <link rel="icon" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/ajax-loader.gif"/>
+    -->
+
+  </head>
+  <body>
+
+    <div width="500px">
+      <div class="your-class" width='500px'>
+        <div><img id='popupImage' class='destroyMe' width=250px src='static/img/ud/rendering big.jpg'></div>
+        <div><img width=250px src='static/img/3dModeling/lookingup.png'></div>
+        <div><img width = 250px src='static/img/architecture/Axons-01.png'></div>
+        <div><img width = 250px src='static/img/architecture/perspective.png'></div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="/static/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.your-class').slick({
+        infinite: true,
+        slidesToScroll: 1,
+        slidesToShow: 3,
+        variableWidth: true,
+        dots: true,
+        fade: true,
+        speed: 500,
+        cssEase:'linear',
+
+        });
+      });
+    </script>
+
+  </body>
+</html>
+
