@@ -1,11 +1,22 @@
+@font-face {
+    font-family: 'League Spartan';
+    src: url('/static/LeagueSpartan/league-spartan-master/_webfonts/leaguespartan-bold.eot');
+    src: url('/static/LeagueSpartan/league-spartan-master/_webfonts/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('/static/LeagueSpartan/league-spartan-master/_webfonts/leaguespartan-bold.woff2') format('woff2'),
+         url('/static/LeagueSpartan/league-spartan-master/_webfonts/leaguespartan-bold.woff') format('woff'),
+         url('/static/LeagueSpartan/league-spartan-master/_webfonts/leaguespartan-bold.ttf') format('truetype'),
+         url('/static/LeagueSpartan/league-spartan-master/_webfonts/leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
 
+}
 body {
 	font-family: 'Heebo', sans-serif;
 	background-color:black;
 	}
 			
 div#WmStephenScott {
-	font-family: 'Heebo', sans-serif;
+	font-family: 'League Spartan', 'Heebo', sans-serif;
 	color: white;
 	background-color: #C94B5B;
 	padding-top: 0px;
@@ -37,6 +48,7 @@ p {
 	}
 
 aside {
+    font-family: 'League Spartan', 'Heebo', sans-serif;
 	float:left;
 	background-color:'F0E4C9';
 	color: white;
