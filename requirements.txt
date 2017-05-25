@@ -11,4 +11,4 @@ six==1.10.0
 Werkzeug==0.12.1
 gunicorn==19.7.1
 requests==2.14.2
-
+wtforms==2.1
