@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+        <title>Steve Scott</title>
+		<meta name="viewport" content="width=device-width">
+		<link href="https://fonts.googleapis.com/css?family=Heebo:300,400" rel="stylesheet">
+		<link href="{{url_for('static', filename='css/stylesheet.css')}}" rel='stylesheet' type='text/css'/>
+		<script type="text/javascript" src="{{url_for('static', filename='js/jquery-2.1.0.js')}}"></script>
+		<script type='text/javascript' src="{{url_for('static', filename='js/message_sent.js')}}"></script>
+		<link rel="stylesheet" type="text/css" href="/static/slick/slick.css">
+  		<link rel="stylesheet" type="text/css" href="/static/slick/slick-theme.css">
+	</head>
+	<body>
+		<div id='WmStephenScott'>
+				<h3 id='contactMe'>Contact</h3>
+				<h1 id='WmStephenScott'>Wm. Stephen Scott</h1>
+		</div>
+
+		<div id='feedbackFormDiv'>
+			{% block content %}
+		<h2 id='contact_form_heading'>Contact Form</h2>
+			<form action="{{url_for('message_sent')}}" method=post>
+			{{ form.hidden_tag()}}
+			{{ form.name.label}}
+			{{ form.name }}
+
+			{{ form.org.label}}
+			{{ form.org}}
+
+			{{ form.email.label}}
+			{{ form.email}}
+
+			{{form.subject.label }}
+			{{form.subject}}
+
+			{{form.message.label }}
+			{{form.message}}
+
+			{{message}}
+			{{form.submit}}
+			</form>
+			{% endblock %}
+		</div>
+
+		<aside>
+			<div id='aside'>
+				<br/>
+				<h2 class='aside_class' id='AboutMe'>About Myself</h2>
+				<br/>
+				<h2 class='aside_class' id='Code'>Code</h2>
+				<br/>
+				<h2 class='aside_class' id='Geo'>Geo</h2>
+				<br/>
+				<h2 class='aside_class' id='Design'>Design</h2>
+				<br/>
+			</div>
+		</aside>
+		<div id='contentColumn'>
+			<h1>Message Failed</h1>
+			<h2>Did you enter all the fields correctly?</h2>
+			{% for message in get_flashed_messages() %}
+
+				<div class ="flash">{{message}}</div>
+			{% endfor %}
+			<h3>Return to <a href="{{url_for('index')}}">homepage</a>.</h3>
+		</div>
+		<div id='imageColumn'>
+		</div>
+
+
+
+
+	</body>
+
+	<footer>
+	</footer>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
+</html>
+
+
+

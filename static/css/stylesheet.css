@@ -169,7 +169,38 @@ html, body {
 div#feedbackFormDiv {
 	background-color:#C94B5B;
 	float:right;
-	padding-right:40px;
+	padding: 5px 10px 5px 5px;
 }
 
+form label {
+    font-size: 1.2em;
+    display: block;
+    padding: 10px 5px;
+}
+
+h2#contact_form_heading{
+    font-size: 1.5em;
+    padding: 10px 0px 10px 10px;
+    text-align: center;
+}
+
+form {
+    padding-left: 10px;
+}
+
+form textarea#message{
+    width: 250px;
+    height: 500px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+form input#submit{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
 
