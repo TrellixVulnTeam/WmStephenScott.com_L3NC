@@ -12,3 +12,5 @@ Werkzeug==0.12.1
 gunicorn==19.7.1
 requests==2.14.2
 wtforms==2.1
+flask-wtf==0.14.2
+
