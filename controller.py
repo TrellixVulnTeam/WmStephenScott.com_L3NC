@@ -9,7 +9,7 @@ from gitignore import passwords
 app = Flask(__name__)
 app.secret_key = passwords.SecretKey()
 app.config["MAILGUN_KEY"] = passwords.mailgun_key()
-app.config['MAILGUN_DOMAIN'] = 'wmstephenscott.com'
+app.config['MAILGUN_DOMAIN'] = 'mg.wmstephenscott.com'
 app.config["MAIL_USERNAME"] = 'evepiprofits@gmail.com'
 #jsglue.init_app(app)
 @app.route('/', methods=['GET', 'POST'])
