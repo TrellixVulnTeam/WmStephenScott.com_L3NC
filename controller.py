@@ -7,9 +7,9 @@ from gitignore import passwords
 #from flask_jsglue import JSGlue
 
 app = Flask(__name__)
-app.secret_key = passwords.SecretKey()
+app.secret_key = app.config["SECRET_KEY"]
 app.config["MAILGUN_KEY"] = passwords.mailgun_key()
-app.config['MAILGUN_DOMAIN'] = 'mg.wmstephenscott.com'
+app.config['MAILGUN_DOMAIN'] = 'wmstephenscott.com'
 app.config["MAIL_USERNAME"] = 'evepiprofits@gmail.com'
 #jsglue.init_app(app)
 @app.route('/', methods=['GET', 'POST'])
@@ -23,7 +23,7 @@ def index():
     form = ContactForm()
 
     def send_mail(to_address, from_address, subject, organization, plaintext):
-        plaintext = organization +" " + plaintext
+        plaintext = organization + " " + plaintext
         request2 = requests.post("https://api.mailgun.net/v3/%s/messages" % app.config['MAILGUN_DOMAIN'],
                                 auth=("api", app.config['MAILGUN_KEY']),
                                 data={"from": from_address,
