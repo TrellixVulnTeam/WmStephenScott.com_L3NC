@@ -48,9 +48,10 @@ def index():
                           form.org.data,
                           form.message.data)
 
-                send_email(form.email.data,
+                send_mail(form.email.data,
                            "no-reply@" + app.config["MAILGUN_DOMAIN"],
                            "Message Sent to Steve Scott",
+                          "Steve Scott",
                            "Your message has been received and I will get back to you promptly.  Thank you for your inquiry.")
 
                 return render_template('message-sent.html', form=form)
