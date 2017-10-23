@@ -2,10 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c0337c0-25ca-45a3-bfb5-df227d10ce3e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gitignore/passwords.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller.py" afterPath="$PROJECT_DIR$/controller.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/__future__.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/__future__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/_bootlocale.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/_bootlocale.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/_collections_abc.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/_collections_abc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/_dummy_thread.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/_dummy_thread.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/_weakrefset.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/_weakrefset.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/abc.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/abc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/base64.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/base64.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/bisect.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/bisect.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/codecs.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/codecs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/copy.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/copy.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/copyreg.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/copyreg.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/fnmatch.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/fnmatch.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/functools.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/functools.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/genericpath.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/genericpath.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/hashlib.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/hashlib.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/heapq.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/heapq.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/hmac.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/hmac.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/imp.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/imp.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/io.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/io.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/keyword.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/keyword.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/linecache.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/linecache.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/locale.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/locale.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/ntpath.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/ntpath.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/operator.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/operator.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/os.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/os.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/posixpath.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/posixpath.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/random.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/random.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/re.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/re.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/reprlib.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/reprlib.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/rlcompleter.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/rlcompleter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/shutil.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/shutil.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/sre_compile.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/sre_compile.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/sre_parse.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/sre_parse.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/struct.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/struct.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/tarfile.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/tarfile.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/tempfile.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/tempfile.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/token.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/token.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/tokenize.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/tokenize.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/types.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/types.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/weakref.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/weakref.py" />
     </list>
     <ignored path="WmStephenScott.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,31 +65,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="runtime.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/runtime.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controller.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="controller.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+            <state relative-caret-position="180">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -58,8 +77,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controller.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../EVE/EvePIProfit_github/controller.py">
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -68,14 +87,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/forms.py">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gitignore/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,11 +129,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="message-sent.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/message-sent.html">
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="936">
-              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1464">
+              <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -159,6 +206,7 @@
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/gitignore/passwords.py" />
         <option value="$PROJECT_DIR$/controller.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -172,10 +220,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2828" />
-    <option name="y" value="422" />
-    <option name="width" value="2585" />
-    <option name="height" value="1333" />
+    <option name="x" value="1244" />
+    <option name="y" value="245" />
+    <option name="width" value="1366" />
+    <option name="height" value="1598" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -202,6 +250,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -218,6 +267,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WmStephenScott.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WmStephenScott.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WmStephenScott.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -269,12 +332,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/heroku/bin/node" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -292,6 +355,57 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WmStephenScott.com" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WmStephenScott.com" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="WmStephenScott.com" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -321,6 +435,22 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <module name="WmStephenScott.com" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -451,10 +581,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2828" y="422" width="2585" height="1333" extended-state="0" />
+    <frame x="1244" y="245" width="1366" height="1598" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23513193" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23560606" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285578" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -509,21 +639,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/img/architecture/mixed.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/architecture/kameiWindows2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/architecture/KameiRotations2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/img/architecture/green.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -564,13 +679,6 @@
     <entry file="file://$PROJECT_DIR$/static/img/architecture/namiChrome.psd">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/script_backup.js">
@@ -632,13 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1962">
-          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/img/gis/2007-2009_MuchBetter.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -684,13 +785,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gitignore/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/img/aboutMe/BandW.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -710,24 +804,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/message_sent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -742,7 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -750,6 +829,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitignore/passwords.py" />
+    <entry file="file://$PROJECT_DIR$/../EVE/EvePIProfit_github/controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -764,20 +852,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1098">
-          <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/message-sent.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="936">
           <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/message_sent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -798,8 +884,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gitignore/passwords.py" />
-    <entry file="file://$PROJECT_DIR$/../EVE/EvePIProfit_github/controller.py">
+    <entry file="file://$PROJECT_DIR$/templates/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -807,13 +892,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1464">
+          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1098">
+          <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/controller.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        <state relative-caret-position="180">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitignore/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitignore/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

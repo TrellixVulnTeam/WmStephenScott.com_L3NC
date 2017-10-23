@@ -3,14 +3,14 @@ import requests
 from flask import Flask, render_template, request, flash
 from wtforms import Form, StringField, validators
 from forms import ContactForm
-from gitignore import passwords
+# from gitignore import passwords
 #from flask_jsglue import JSGlue
 
 app = Flask(__name__)
 app.secret_key = app.config["SECRET_KEY"]
-app.config["MAILGUN_KEY"] = passwords.mailgun_key()
-app.config['MAILGUN_DOMAIN'] = 'wmstephenscott.com'
-app.config["MAIL_USERNAME"] = 'evepiprofits@gmail.com'
+app.config["MAILGUN_KEY"] = os.environ["MAILGUN_API_KEY"]
+app.config['MAILGUN_DOMAIN'] = os.environ["MAILGUN_DOMAIN"]
+app.config["MY_EMAIL"] = os.environ["MY_EMAIL"]
 #jsglue.init_app(app)
 @app.route('/', methods=['GET', 'POST'])
 def index():
@@ -42,11 +42,16 @@ def index():
         #flash('Message sent.')
         else:
             try:
-                send_mail(app.config["MAIL_USERNAME"],
+                send_mail(app.config["MY_EMAIL"],
                           form.email.data,
                           form.subject.data,
                           form.org.data,
                           form.message.data)
+
+                send_email(form.email.data,
+                           "no-reply@" + app.config["MAILGUN_DOMAIN"],
+                           "Message Sent to Steve Scott",
+                           "Your message has been received and I will get back to you promptly.  Thank you for your inquiry.")
                 return render_template('message-sent.html', form=form)
             except requests.exceptions.RequestException as e:
                 flash(e)
