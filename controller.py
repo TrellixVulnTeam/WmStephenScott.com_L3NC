@@ -7,7 +7,7 @@ from forms import ContactForm
 #from flask_jsglue import JSGlue
 
 app = Flask(__name__)
-app.secret_key = app.config["SECRET_KEY"]
+app.secret_key = os.environ["SECRET_KEY"]
 app.config["MAILGUN_KEY"] = os.environ["MAILGUN_API_KEY"]
 app.config['MAILGUN_DOMAIN'] = os.environ["MAILGUN_DOMAIN"]
 app.config["MY_EMAIL"] = os.environ["MY_EMAIL"]
@@ -52,6 +52,7 @@ def index():
                            "no-reply@" + app.config["MAILGUN_DOMAIN"],
                            "Message Sent to Steve Scott",
                            "Your message has been received and I will get back to you promptly.  Thank you for your inquiry.")
+
                 return render_template('message-sent.html', form=form)
             except requests.exceptions.RequestException as e:
                 flash(e)

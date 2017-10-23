@@ -2,49 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c0337c0-25ca-45a3-bfb5-df227d10ce3e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller.py" afterPath="$PROJECT_DIR$/controller.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/__future__.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/__future__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/_bootlocale.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/_bootlocale.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/_collections_abc.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/_collections_abc.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/_dummy_thread.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/_dummy_thread.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/_weakrefset.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/_weakrefset.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/abc.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/abc.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/base64.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/base64.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/bisect.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/bisect.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/codecs.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/codecs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/copy.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/copy.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/copyreg.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/copyreg.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/fnmatch.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/fnmatch.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/functools.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/functools.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/genericpath.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/genericpath.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/hashlib.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/hashlib.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/heapq.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/heapq.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/hmac.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/hmac.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/imp.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/imp.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/io.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/io.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/keyword.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/keyword.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/linecache.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/linecache.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/locale.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/locale.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/ntpath.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/ntpath.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/operator.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/operator.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/os.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/os.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/posixpath.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/posixpath.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/random.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/random.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/re.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/re.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/reprlib.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/reprlib.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/rlcompleter.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/rlcompleter.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/shutil.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/shutil.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/sre_compile.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/sre_compile.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/sre_parse.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/sre_parse.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/struct.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/struct.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/tarfile.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/tarfile.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/tempfile.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/tempfile.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/token.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/token.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/tokenize.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/tokenize.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/types.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/types.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv3/lib/python3.5/weakref.py" afterPath="$PROJECT_DIR$/venv3/lib/python3.5/weakref.py" />
     </list>
     <ignored path="WmStephenScott.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,8 +28,8 @@
       <file leaf-file-name="controller.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            <state relative-caret-position="467">
+              <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -100,8 +60,8 @@
       <file leaf-file-name=".env" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="216">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -110,8 +70,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+            <state relative-caret-position="18">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -205,6 +165,7 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/gitignore/passwords.py" />
+        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/controller.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
@@ -220,10 +181,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1244" />
-    <option name="y" value="245" />
+    <option name="x" value="1273" />
+    <option name="y" value="52" />
     <option name="width" value="1366" />
-    <option name="height" value="1598" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -581,7 +542,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1244" y="245" width="1366" height="1598" extended-state="0" />
+    <frame x="1273" y="52" width="1366" height="1028" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23560606" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -910,16 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gitignore/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -946,16 +897,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="216">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
