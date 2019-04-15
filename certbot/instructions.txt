@@ -1,0 +1,9 @@
+Create a file containing just this data:
+
+1-mXZGgOPwNuOwOdun9QKl5-dNmIWtzQKwi7Hab-XN8.1P6Kyr6rVFLn0ZRRdmv15KOnqHT5xUDQrn7VAvUPXko
+
+And make it available on your web server at this URL:
+
+http://www.wmstephenscott.com/.well-known/acme-challenge/1-mXZGgOPwNuOwOdun9QKl5-dNmIWtzQKwi7Hab-XN8
+
+
